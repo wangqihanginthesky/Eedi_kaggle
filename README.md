@@ -4,7 +4,7 @@ This is a solution for the Eedi Kaggle competition focusing on student misconcep
 ## Folder structure
 ```
 .
-├── README.md                        documentation
+├── README.md                          # Project documentation
 ├── Solution.md                        # Detailed solution explanation
 ├── data/                             # Data directory
 │   ├── calibration_data              # Model calibration datasets
