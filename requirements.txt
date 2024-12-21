@@ -1,4 +1,9 @@
+uv==0.4.30
+torchvision==0.19.1
+vllm==0.6.3.post1
+sentence-transformers==3.2.1
+peft==0.13.2
 transformers==4.45.0
 faiss-cpu
 vllm==0.6.3
-peft==0.13.2
+
