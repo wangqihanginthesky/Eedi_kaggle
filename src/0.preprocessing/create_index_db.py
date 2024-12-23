@@ -14,7 +14,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 model = AutoModel.from_pretrained(model_id, trust_remote_code=True)
 model.to(device)
 
-df_subject = pd.read_csv('subject_metadata.csv')
+df_subject = pd.read_csv('../../data/raw/subject_metadata.csv')
 
 def last_token_pool(last_hidden_states: Tensor,
                  attention_mask: Tensor) -> Tensor:
@@ -59,5 +59,5 @@ index = faiss.IndexFlatIP(dimension)
 index = faiss.IndexIDMap(index)
 index.add_with_ids(embeddings, subject_ids)
 
-filename = 'faiss_subject.index'
+filename = '../../data/0.preprocessing/faiss_subject.index'
 faiss.write_index(index, filename)
