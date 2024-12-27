@@ -1,13 +1,13 @@
 # Copasta's part
 In this part, we will create a retrieval model.
 
-## [WIP] Data Preparation
+## [WIP] 1. Data Preparation
 * 洪さんパートの構成に対応して更新
 * 基本的な流れの想定
     * fold datasetの作成・配置
     * 合成データの作成・配置
 
-## Training
+## 2. Training
 ### Environment
 Lambda Cloud
 
@@ -24,7 +24,7 @@ Please run the following notebook. Please adjust the I/O directory according to 
 
 * step1_training_retrieval.ipynb
 
-## Model merge
+## 3. Model merge
 ### Environment
 Google Colaboratory
 
@@ -35,7 +35,7 @@ Please run the following notebook. Please adjust the I/O directory according to 
 
 * step2_merge_llm.ipynb
 
-## Quantization
+## 4. Quantization
 ### Environment
 Google Colaboratory
 
