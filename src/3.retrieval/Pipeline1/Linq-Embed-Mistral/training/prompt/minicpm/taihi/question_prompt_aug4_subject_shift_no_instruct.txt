@@ -1,0 +1,1 @@
+Query: Misunderstanding: {misunderstanding}. Construct: {construct}, Subtopic: {third_subject}, Topic: {second_subject}, Subject: {first_subject}. Question: {question}. Wrong Answer: {answer}. Correct Answer: {correct_answer}.
