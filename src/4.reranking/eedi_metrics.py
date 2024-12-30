@@ -1,9 +1,5 @@
-# 写一个评价函数的python文件
-# 这实现的是官方的MAP@25评价
-# Credit: https://www.kaggle.com/code/abdullahmeda/eedi-map-k-metric
-
 import numpy as np
-# Average Precision at k，简称AP@k
+
 def apk(actual, predicted, k=25):
     """
     Computes the average precision at k.
