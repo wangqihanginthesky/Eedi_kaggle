@@ -1,4 +1,6 @@
+# Model files
 stella_400m/
+qwne25_14B_fold*/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
