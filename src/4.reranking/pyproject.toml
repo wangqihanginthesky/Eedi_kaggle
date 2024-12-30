@@ -1,0 +1,34 @@
+[project]
+name = "4-reranking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "polars==1.7.1",
+    "sentence-transformers[train]==3.3.0",
+    "setuptools>=75.6.0",
+    "torch==2.4.0",
+    "triton==3.0.0",
+    "xformers==0.0.27.post2",
+]
+
+[tool.ruff]
+select = [
+    "ALL", 
+]
+ignore = [
+    "D100",
+    "D203",
+    "D212",
+    "D401",
+    "RET504",
+    "S101",
+    "S311",
+    "SIM108",
+    "N812",
+    "NPY002"
+]
+
+line-length = 120
