@@ -1,0 +1,21 @@
+# competition data
+data_dir: "/home/yoku/compe/eedi/input/eedi-mining-misconceptions-in-mathematics"
+
+# train.csv split into 5 folds
+train_with_folds: "./train_5folds_with_llm_infer.csv"
+
+# Weights of retrieval models for generating negative samples for the re-ranking model
+# The training code and weights are available at: https://www.kaggle.com/datasets/yokuyama/eedi-models-stella400m
+retrieval_model_dir: "./stella_400m"
+
+# Synthetic Data
+# Download the required data from https://github.com/wangqihanginthesky/Eedi_kaggle/tree/rihanpiggy/data/retrieve_train
+# and place it in the directory specified below.
+synth_data_dir: "/home/yoku/compe/eedi/data"
+
+
+# max_seq_length for SFTTrainer
+max_seq_length: 4096
+
+# max_seq_length for training prompts
+prompt_max_seq_length: 1024
