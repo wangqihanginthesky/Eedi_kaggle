@@ -1,11 +1,8 @@
 # Copasta's part
 In this part, we will create a retrieval model.
 
-## [WIP] 1. Data Preparation
-* 洪さんパートの構成に対応して更新
-* 基本的な流れの想定
-    * fold datasetの作成・配置
-    * 合成データの作成・配置
+## 1. Data Preparation
+Download the retrieve-train-pipeline2 data from [Google Drive](../../../../data/retrieve_train/README.md) and place it in the input directory.
 
 ## 2. Training
 ### Environment
