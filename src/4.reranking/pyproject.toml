@@ -5,8 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "auto-round==0.3.1",
     "bitsandbytes==0.43.3",
     "ipykernel>=6.29.5",
+    "omegaconf>=2.3.0",
     "peft==0.12.0",
     "polars==1.7.1",
     "sentence-transformers[train]==3.3.0",
